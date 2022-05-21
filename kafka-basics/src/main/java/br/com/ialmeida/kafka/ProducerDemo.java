@@ -15,7 +15,7 @@ public class ProducerDemo {
     public static final String HOST = "127.0.0.1:9092";
 
     public static void main(String[] args) {
-        LOG.info("Hello, World!");
+        LOG.info("I am a Kafka Producer!");
 
         // create Producer Properties
         Properties properties = new Properties();
